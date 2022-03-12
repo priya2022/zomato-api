@@ -37,7 +37,7 @@ app.get('/location',(req,res) => {
         res.send(result)
     })
 })*/
-app.get('/restaurants',(req,res) => {
+app.get('/restaurant',(req,res) => {
     let stateId  = Number(req.query.state_id)
     let mealId = Number(req.query.meal_id)
     let query = {};
