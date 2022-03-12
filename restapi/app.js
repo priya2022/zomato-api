@@ -56,7 +56,6 @@ app.get('/restaurants',(req,res) => {
         res.send(result)
     })
 })
-
 //filter
 
 app.get('/filter/:mealId',(req,res) => {
