@@ -17,7 +17,7 @@ quick search data
 Page 2
 restaurants wrt to quickSearch 
 > http://localhost:6700/restaurants?meal_id=5
-> https://zomatoaapi.herokuapp.com/restaurants?mealtype_id=5
+> https://zomatoaapi.herokuapp.com/restaurants?meal_id=1
 
 
 filter
