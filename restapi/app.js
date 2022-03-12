@@ -56,8 +56,8 @@ app.get('/restaurants',(req,res) => {
         res.send(result)
     })
 })
-//filter
 
+// filters
 app.get('/filter/:mealId',(req,res) => {
     let sort = {cost:1}
     let mealId = Number(req.params.mealId)
@@ -153,6 +153,7 @@ app.post('/menuItem',(req,res) => {
     })
 })
 
+
 app.delete('/deleteOrder',(req,res) => {
     db.collection('orders').remove({},(err,result) =>{
         if(err) throw err;
@@ -175,7 +176,6 @@ app.put('/updateOrder/:id',(req,res) => {
         }
     )
 })
-
 
 
 MongoClient.connect(mongoUrl, (err,client) => {
