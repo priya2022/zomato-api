@@ -57,7 +57,8 @@ app.get('/restaurants',(req,res) => {
     })
 })
 
-// filters
+//filter
+
 app.get('/filter/:mealId',(req,res) => {
     let sort = {cost:1}
     let mealId = Number(req.params.mealId)
