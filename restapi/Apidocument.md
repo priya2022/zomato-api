@@ -8,7 +8,7 @@ List of restaurants
 > https://zomatoaapi.herokuapp.com/restaurants
 restaurants wrt to city 
 > http://localhost:6700/restaurants?state_id=4
-> https://zomatoaapi.herokuapp.com/restaurant?stateId=1
+> https://zomatoaapi.herokuapp.com/restaurants?state_id=1
 quick search data  
 > http://localhost:6700/mealType
 > https://zomatoaapi.herokuapp.com/quicksearch
